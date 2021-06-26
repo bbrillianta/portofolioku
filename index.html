@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Waluyo</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700	;1,900&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+	<body>
+
+		<div class="kelas-biru-muda" id="navbar">
+			<div onclick="keAboutMe()" class="navbar-link">About Me</div>
+			<div id="education" onclick="keEducation()" class="navbar-link">Education</div>
+			<div id="skills" onclick="keSkills()" class="navbar-link">Skills</div>
+			<div id="contact" onclick="keContact()" class="navbar-link">Contact</div>
+		</div>
+		
+
+		<div class="kelas-biru-muda" id="intro-section">
+			<div class="padding-intro-img">
+				<img src="https://images.tokopedia.net/img/cache/700/product-1/2020/8/18/9142102/9142102_2468b558-ac23-4ce9-a49e-0d18e5fc4798_1076_1076.jpg"
+			id="fotoku"
+			>
+			</div>
+			<div class="padding-intro-desc">
+				<h1 class="name-title no-margin" id="namaku">Waluyo</h1>	
+				<h4 class="kelas-abu no-margin" id="job-title">Web Developer</h4>
+				<button type="button" class="kelas-btn-biru" onclick="keContact()">Contact Me</button>
+			</div>
+		</div>
+
+		<div id="riwayat-section">
+			<div class="kelas-biru-muda" id="riwayat-title-section">
+				<h2 class="sub-title">Riwayat <br> Pendidikan</h2>
+				<div class="kelas-biru-muda" id="kotak-tembus"></div>
+			</div>
+			<ul id="all-list-pendidikan">
+				<li class="jarak-li">
+					<h4 class="list-pendidikan no-margin">SDN 1 London</h4>
+					<h6 class="kelas-abu list-pendidikan-tahun no-margin">2000-2006</h6>
+				</li>
+				<li class="jarak-li">
+					<h4 class="list-pendidikan no-margin">SMPN 1 Italy </h4>
+					<h6 class="kelas-abu list-pendidikan-tahun no-margin">2006-2009</h6>
+				</li>
+				<li class="jarak-li">
+					<h4 class="list-pendidikan no-margin">SMAN 2 USA</h4>
+					<h6 class="kelas-abu list-pendidikan-tahun no-margin">2009-2012</h6>
+				</li>
+				<li class="jarak-li">
+					<h4 class="list-pendidikan no-margin">Universitas Timor leste</h4>
+					<h6 class="kelas-abu list-pendidikan-tahun no-margin">2012-2016</h6>
+				</li>
+			</ul>
+		</div>
+
+		<div id="skill-section">
+			<h2 class="sub-title text-center">Skills</h2>
+			<table>
+				<tr>
+					<th class="kelas-abu list-pendidikan skill-border">languages</th>
+					<th class="kelas-abu list-pendidikan skill-border">dev tools</th>
+					<th class="kelas-abu list-pendidikan skill-border">frameworks</th>
+				</tr>
+				<tr>
+					<td>
+						<div class="flex-skill">
+							<img src="https://www.php.net/images/logos/new-php-logo.svg" class="skill-icon">
+						</div>
+					</td>
+					<td>
+						<div class="flex-skill">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png" class="skill-icon">
+						</div>
+					</td>
+					<td >
+						<div class="flex-skill">
+							<img src="https://docs.vuejs.id//images/logo.png" class="skill-icon">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="flex-skill">
+							<img src="https://user-images.githubusercontent.com/42747200/46140125-da084900-c26d-11e8-8ea7-c45ae6306309.png" class="skill-icon">
+						</div>
+					</td>
+					<td>
+						<div class="flex-skill">
+							<img src="https://www.creativefreedom.co.uk/wp-content/uploads/2017/01/cpanel-logo.png" class="skill-icon">
+						</div>
+					</td>
+					<td>
+						<div class="flex-skill">
+							<img src="https://cdn.iconscout.com/icon/free/png-256/laravel-226015.png" class="skill-icon">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="flex-skill">
+							<img src="https://cdn.iconscout.com/icon/free/png-256/node-js-1-1174935.png" class="skill-icon">
+						</div>
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						<div class="flex-skill">
+							<img src="https://cdn.worldvectorlogo.com/logos/nextjs-3.svg" class="skill-icon">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="projects-section">
+			<h2 class="sub-title">My Projects</h2>
+
+			<div class="border-top-btm project-list flex-project">
+				<div> 
+					<a href="https://bootstrapmade.com">
+						<img src="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png" class="img-project">
+					</a>
+				</div>
+				<div class="desc-project">
+					<a class="title-project" href="https://bootstrapmade.com">
+						<h2>bootstrapmade</h2>
+					</a>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+					</p>
+					<p>
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>	
+			</div>
+			<div class="project-list flex-project">
+				<div>
+					<a href="https://bootstrapmade.com">
+					<img src="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png" class="img-project">
+					</a>
+				</div>
+				<div class="desc-project">
+					<a class="title-project" href="https://bootstrapmade.com">
+						<h2>bootstrapmadev2</h2>
+					</a>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</div>
+			<div class="border-top-btm project-list flex-project">
+				<div>
+					<a href="https://bootstrapmade.com">
+						<img src="https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png" class="img-project">
+					</a>
+				</div>
+				<div class="desc-project">
+					<a class="title-project"  href="https://bootstrapmade.com">
+						<h2>bootstrapmadev3</h2>
+					</a>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>	
+			</div>
+		</div>
+
+		<div class="kelas-biru-muda" id="contact-section">
+			<h2 class="sub-title">Contact Me</h2>
+			<form class="flex-form">
+				<input type="text" placeholder="Nama Lengkap" id="inputNamaLengkap" class="contact-list">
+				<br>
+				<input type="email" placeholder="Email" class="contact-list" required>
+				<br>
+				<input type="text" placeholder="Subject" class="contact-list">
+				<br>
+				<textarea placeholder="Description" class="contact-list"></textarea>
+				<br>
+				<button type="reset" class="kelas-btn-biru" class="contact-list" id="btn-kirim" onclick="submitForm()">Kirim pesan</button>
+			</form>
+		</div>
+		<h3 class="text-center">Copyright ©2021 All rights reserved</h3>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
